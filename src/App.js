@@ -13,13 +13,13 @@ const App = () => {
   return (
     <div className="App">
       <Row>
-        <Col xs={4} className="col-left">
+        <Col md={4} className="col-left">
           <Header />
           <Details />
           <Links />
           <Skills />
         </Col>
-        <Col xs={8} className="col-right">
+        <Col md={8} className="col-right">
           <Profile />
           <Education />
           <Projects />
