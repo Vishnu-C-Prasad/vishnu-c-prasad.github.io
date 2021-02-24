@@ -1,8 +1,37 @@
 .col-left {
     background-color: #035241;
-    height: 100vh !important;
 }
 
-.col-right {
-    height: 100vh !important;
+.header {
+    width: 100% !important;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.text-verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my-image {
+    width: 8rem !important;
+}
+
+.seperator {
+    margin:  0 auto 0 auto !important;
+    width: 20% !important;
+    border-bottom: 5px solid #ffffff;
+}
+
+.col-left a {
+    color: #ffffff;
+}
+
+.col-left a:hover {
+    color: #ffffff;
+}
+
+.text-gray {
+    color: #cacaca;
 }
