@@ -5,6 +5,9 @@ import Header from './components/Header';
 import Details from './components/Details';
 import Links from './components/Links';
 import Skills from './components/Skils';
+import Profile from './components/Profile';
+import Education from './components/Education';
+import Projects from './components/Projects';
 
 const App = () => {
   return (
@@ -17,7 +20,9 @@ const App = () => {
           <Skills />
         </Col>
         <Col xs={8} className="col-right">
-          
+          <Profile />
+          <Education />
+          <Projects />
         </Col>
       </Row>
     </div>

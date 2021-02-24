@@ -10,6 +10,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
+.heading.project-heading {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
 .text-verdana {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -34,4 +39,7 @@
 
 .text-gray {
     color: #cacaca;
+}
+.project-languages {
+    font-style: italic;
 }
