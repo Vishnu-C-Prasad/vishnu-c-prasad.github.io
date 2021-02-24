@@ -1,9 +1,18 @@
+import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Vishnu C Prasad</h1>
+      <Row>
+          <Col xs={4} className="col-left">
+            
+          </Col>
+          <Col xs={8} className="col-right">
+
+          </Col>
+        </Row>
     </div>
   );
 }
